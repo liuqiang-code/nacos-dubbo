@@ -11,6 +11,7 @@
         <dubbo.version>2.7.3</dubbo.version>
         <nacos.version>1.1.1</nacos.version>
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
+        <nacos.registry.version>0.0.2</nacos.registry.version>
     </properties>
 
     <packaging>pom</packaging>
@@ -47,6 +48,13 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>${dubbo.version}</version>
+        </dependency>
+
+        <!-- Dubbo Nacos registry dependency -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+            <version>${nacos.registry.version}</version>
         </dependency>
     </dependencies>
 </project>
