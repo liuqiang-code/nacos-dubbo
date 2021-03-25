@@ -51,10 +51,10 @@
         </dependency>
 
         <!-- Dubbo Nacos registry dependency -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo-registry-nacos</artifactId>
-            <version>${nacos.registry.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>dubbo-registry-nacos</artifactId>-->
+<!--            <version>${nacos.registry.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 </project>
