@@ -8,6 +8,7 @@ public class ProducerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ProducerApplication.class, args);
+        System.out.println("生产者启动成功");
     }
 
 }
